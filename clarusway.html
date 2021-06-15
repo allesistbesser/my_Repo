@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarusway Survey Form</title>
+    <link rel="stylesheet" href="./clarusway.css">
+    
+</head>
+
+<body>
+    <h1>Clarusway Survey Form</h1>
+    <h3>Thank you for taking the time to help us improve the platform</h3>
+    <div>
+        <label for="name">Name</label> <br><br>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
+        <label for="surname">Surname</label><br><br>
+        <input type="text" name="surname" id="surname" placeholder="Enter your Surname"><br>
+        <label for="email">Surname</label><br><br>
+        <input type="text" name="email" id="email" placeholder="user@clarusway.com">
+
+    </div>
+
+    <div>
+        <h3>Which option best descriebs your current role?</h3>
+
+        <select name="content" id="dropdown">
+            <option value="" disabled selected hidden>Select current role</option>
+            <option value="role1">Role1</option>
+            <option value="role1">Role2</option>
+        </select>
+
+    </div>
+    <div>
+
+        <h3>Would you recommend Clarusway to a friend?</h3>
+        <input type="radio" name="rec" id="def">
+        <label for="def">Definity , Yes</label><br>
+        <input type="radio" name="rec" id="maybe">
+        <label for="maybe">Maybe</label><br>
+        <input type="radio" name="rec" id="nots">
+        <label for="nots">Not sure</label><br>
+        <input type="radio" name="rec" id="defno">
+        <label for="defno">Definity, No</label><br>
+    </div>
+    <div>
+        <h3>What is your favorite feature of Clarusway?</h3>
+
+        <select name="content2" id="dropdown2" >
+            <option value="opt1">opt1</option>
+            <option value="opt2">opt2</option>
+        </select>
+
+    </div>
+
+    <div>
+        <h3> What would you like see improvied?(Check all that apply)</h3>
+        <input type="checkbox" id="fep" name="fed" value="Frontendprojects" />
+        <label for="fep"> Front end projects</label>
+        <br />
+        <input type="checkbox" id="bep" name="brp" value="backendprojects" />
+        <label for="bep"> Back end projects</label>
+        <br />
+        <input type="checkbox" id="dc" name="dc" value="datasciens" />
+        <label for="dc"> Data sciens</label>
+        <br>
+        <input type="checkbox" id="ac" name="ac" value="additionalcourses" />
+        <label for="ac">Additional courses</label>
+        <br>
+
+    </div>
+    
+    <div>
+        <h3> Any comments or suggestions? </h3>
+        
+        <textarea name="message" id="feedback" cols="30" rows="6" placeholder="Enter your comment here ... Thank you for"
+            style="resize: none"></textarea>
+        <button type="submit" id="form-button">Submit</button>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+h3{
+    font-family: sans-serif;
+    color: rgb(22, 132, 223);
+    text-shadow: 2px 2px 3px blueviolet;
+    font-size: 1.3rem;
+    
+}
+
+body{
+    background-color: rgb(255, 251, 6);
+    margin-left: 10%;
+}
+
